@@ -12,7 +12,7 @@ class Hash
   #--need the splat symbol with unknown # of arguments--#
   def keys_of(*arguments)
     array = []
-    puts self
+    
     self.each do |key, value|
       
       arguments.each do |i|
