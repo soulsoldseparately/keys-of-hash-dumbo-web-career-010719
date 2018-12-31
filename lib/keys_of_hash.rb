@@ -14,7 +14,7 @@ class Hash
     array = []
     
     self.each do |key, value|
-      puts self
+      puts key
       arguments.each do |i|
         if i == value
         array.push(key)
